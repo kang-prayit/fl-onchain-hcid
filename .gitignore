@@ -1,0 +1,50 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+*keystore*
+*wallet*
+*mnemonic*
+*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Foundry / chain
+contracts/cache/
+contracts/out/
+anvil*.log
+broadcast/
+
+# Kubo / IPFS local repos and large binaries
+.ipfs/
+kubo-repo*/
+*.car
+*.npz
+*.pt
+*.pth
+*.onnx
+*.bin
+*.tgz
+*.tar
+*.tar.gz
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Internal notes and unpublished data (must not ship)
+notes/
+submission/cover_letter_INTERNAL_NOTES*
+work/
+**/__pycache__/

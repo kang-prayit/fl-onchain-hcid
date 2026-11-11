@@ -1,0 +1,10 @@
+{
+ "n_round_pairs": 922,
+ "gap_min": -2,
+ "gap_max": 46,
+ "resid_values": [
+  22
+ ],
+ "per_zero_byte_gas": 12,
+ "note": "gap = 22 + 12*(nonzero calldata bytes S3 - S2) in every round pair; EIP-2028: 16 gas per non-zero, 4 per zero calldata byte"
+}

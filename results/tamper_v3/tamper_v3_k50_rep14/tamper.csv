@@ -1,0 +1,29 @@
+run_id,test,scheme,description,detected,reason
+tamper_v3_k50_rep14,T1,S1,1 byte of client update flipped after commit,True,ValueError: chunk bafkreihxc57fkkatwpeiecs3bxmlh7rrhra4a437bqdn5dop6qiixjvzea does not hash to its CID
+tamper_v3_k50_rep14,T1,S2,1 byte of client update flipped after commit,True,ValueError: chunk bafkreihxc57fkkatwpeiecs3bxmlh7rrhra4a437bqdn5dop6qiixjvzea does not hash to its CID
+tamper_v3_k50_rep14,T1,S2sig,1 byte of client update flipped after commit,True,ValueError: chunk bafkreihxc57fkkatwpeiecs3bxmlh7rrhra4a437bqdn5dop6qiixjvzea does not hash to its CID
+tamper_v3_k50_rep14,T1,S3,1 byte of client update flipped after commit,True,ValueError: chunk zb2rhoGpfx4YgBRMXu7YsHyzEs3tJb9QyGFamxseg7d3j7WUX does not hash to its CID
+tamper_v3_k50_rep14,T2,S1,client record replaced by a forged update (index/manifest substituted),True,hash mismatch
+tamper_v3_k50_rep14,T2,S2,client record replaced by a forged update (index/manifest substituted),True,Merkle path does not reach on-chain root
+tamper_v3_k50_rep14,T2,S2sig,client record replaced by a forged update (index/manifest substituted),True,Merkle path does not reach on-chain root
+tamper_v3_k50_rep14,T2,S3,client record replaced by a forged update (index/manifest substituted),True,ValueError: block zdpuAnEsStsNKjHD8aqscEQmp2AKqBGfgdiqj1CAc6oRBpoJR does not hash to its CID
+tamper_v3_k50_rep14,T3a,S2,victim omitted from committed round; victim checks its receipt,True,no inclusion path for victim
+tamper_v3_k50_rep14,T3a,S2sig,victim omitted from committed round; victim checks its receipt,True,no inclusion path for victim
+tamper_v3_k50_rep14,T3a,S3,victim omitted from committed round; victim checks its receipt,True,manifest id/round mismatch
+tamper_v3_k50_rep14,T3a,S1,victim omitted from committed round; victim checks its receipt,True,no per-client hash committed for victim
+tamper_v3_k50_rep14,T3b,S3,fake/unregistered client injected (signature in manifest checked),True,bad client signature
+tamper_v3_k50_rep14,T3b,S2sig,fake/unregistered client injected (signed leaf checked against registry),True,bad client signature
+tamper_v3_k50_rep14,T3b,S2,"fake client injected; unsigned leaf has no signature, so inclusion still verifies",False,not detected without a signature registry
+tamper_v3_k50_rep14,T3b,S1,S1 has no client signature; attribution of a substituted hash is not in scope,False,n/t: S1 has no signature/registry check
+tamper_v3_k50_rep14,T4,S3,re-commit round 1 (replay/rollback) on a guarded registry,True,reverted: ContractCustomError
+tamper_v3_k50_rep14,T4,S2,re-commit round 1 (replay/rollback) on a guarded registry,True,reverted: ContractCustomError
+tamper_v3_k50_rep14,T4,S2sig,re-commit round 1 (replay/rollback) on a guarded registry,True,reverted: ContractCustomError
+tamper_v3_k50_rep14,T4,S1-guard,re-commit round 1 (replay/rollback) on a guarded S1 registry,True,reverted: ContractCustomError
+tamper_v3_k50_rep14,T5,S3,victim manifest block withheld by storage,True,FileNotFoundError: block zdpuAnEsStsNKjHD8aqscEQmp2AKqBGfgdiqj1CAc6oRBpoJR withheld
+tamper_v3_k50_rep14,T5,S2,server proof store withheld,True,FileNotFoundError: [Errno 2] No such file or directory: '/workspace/riset/ict-express-fl-onchain/results/tamper_v3/tamper_v3_k50_rep14/server_store/s2_round2.js
+tamper_v3_k50_rep14,T5,S2sig,server proof store withheld,True,FileNotFoundError: [Errno 2] No such file or directory: '/workspace/riset/ict-express-fl-onchain/results/tamper_v3/tamper_v3_k50_rep14/server_store/s2sig_round2
+tamper_v3_k50_rep14,T5,S1,update blob withheld,True,FileNotFoundError: block bafkreihxc57fkkatwpeiecs3bxmlh7rrhra4a437bqdn5dop6qiixjvzea withheld
+tamper_v3_k50_rep14,T6,S3,aggregator rebuilds the DAG with only n_j changed (original signature),True,bad client signature
+tamper_v3_k50_rep14,T6,S2sig,aggregator rebuilds a signed-leaf tree with only n_j changed (original signature),True,signature does not cover the altered n_j
+tamper_v3_k50_rep14,T6,S2,S2 leaf does not bind n_j; weight changes are outside its guarantee,False,n/t: unsigned S2 does not record n_j
+tamper_v3_k50_rep14,T6,S1,S1 commits only sha256(U_j); weight changes are outside its guarantee,False,n/t: S1 does not record n_j

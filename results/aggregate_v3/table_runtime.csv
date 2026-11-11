@@ -1,0 +1,7 @@
+dataset,k,t_fl_total_s,t_audit_s
+pathmnist,10,369.2,28.3
+pathmnist,50,447.7,47.0
+pathmnist,100,404.7,65.2
+pneumoniamnist,10,26.3,28.3
+pneumoniamnist,50,64.15,46.95
+pneumoniamnist,100,108.3,64.3

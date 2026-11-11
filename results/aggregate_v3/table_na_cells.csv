@@ -1,0 +1,7 @@
+run_id,dataset,partition,alpha,k,seed,status,reason
+pneumoniamnist_k100_dirichlet0.1_s0_r20,pneumoniamnist,dirichlet,0.1,100,0,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"
+pneumoniamnist_k100_dirichlet0.1_s1_r20,pneumoniamnist,dirichlet,0.1,100,1,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"
+pneumoniamnist_k100_dirichlet0.1_s2_r20,pneumoniamnist,dirichlet,0.1,100,2,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"
+pneumoniamnist_k50_dirichlet0.1_s0_r20,pneumoniamnist,dirichlet,0.1,50,0,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"
+pneumoniamnist_k50_dirichlet0.1_s1_r20,pneumoniamnist,dirichlet,0.1,50,1,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"
+pneumoniamnist_k50_dirichlet0.1_s2_r20,pneumoniamnist,dirichlet,0.1,50,2,INFEASIBLE,"Dirichlet partition failed to satisfy min_size even at 2 after 21000 attempts (ladder=[10, 5, 2], last_min_observed=0)"

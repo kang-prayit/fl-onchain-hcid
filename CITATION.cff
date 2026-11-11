@@ -1,0 +1,81 @@
+# The manuscript is a draft; do not invent a paper or software DOI.
+repository-code: "https://github.com/kang-prayit/fl-onchain-hcid"
+url: "https://github.com/kang-prayit/fl-onchain-hcid"
+cff-version: 1.2.0
+message: "If you use this software or the released result files, please cite the manuscript (preferred-citation)."
+title: "Constant on-chain commitment for federated learning rounds via hierarchical content identifiers: code and result files"
+type: software
+license: MIT
+authors:
+  - family-names: Prayitno
+    affiliation: "Department of Electrical Engineering, Politeknik Negeri Semarang, Semarang, Indonesia; Department of Electrical Engineering, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia; Department of Research and Development, SEAMEO SEAMOLEC, South Tangerang, Indonesia"
+    orcid: "https://orcid.org/0000-0002-4794-2957"
+    email: prayitno@polines.ac.id
+  - given-names: Karisma Trinanda
+    family-names: Putra
+    affiliation: "Department of Electrical Engineering, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia"
+    orcid: "https://orcid.org/0000-0003-2887-3527"
+    email: karisma@ft.umy.ac.id
+  - family-names: Damarjati
+    given-names: Cahya
+    affiliation: "Department of Information Technology, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia"
+    orcid: "https://orcid.org/0000-0003-4389-6321"
+    email: cahya.damarjati@umy.ac.id
+  - family-names: Sunardi
+    affiliation: "Department of Mechanical Engineering, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia"
+    orcid: "https://orcid.org/0000-0001-8661-3745"
+    email: sunardi@umy.ac.id
+  - family-names: Wiktasari
+    affiliation: "Department of Electrical Engineering, Politeknik Negeri Semarang, Semarang, Indonesia"
+    orcid: "https://orcid.org/0009-0000-2837-8468"
+    email: wiktasari@polines.ac.id
+  - given-names: Suko Tyas
+    family-names: Pernanda
+    affiliation: "Department of Electrical Engineering, Politeknik Negeri Semarang, Semarang, Indonesia"
+    orcid: "https://orcid.org/0009-0004-2988-090X"
+    email: sukotyasp@polines.ac.id
+  - given-names: Liliek
+    family-names: Triyono
+    affiliation: "Department of Electrical Engineering, Politeknik Negeri Semarang, Semarang, Indonesia"
+    orcid: "https://orcid.org/0000-0002-9566-4824"
+    email: liliek.triyono@polines.ac.id
+keywords:
+  - federated learning
+  - blockchain
+  - content identifier
+  - IPFS
+  - Merkle DAG
+  - auditability
+  - smart contract
+abstract: >-
+  Code, Solidity contracts, reproduction scripts and official result CSVs for the
+  ICT Express manuscript "Constant on-chain commitment for federated learning
+  rounds via hierarchical content identifiers". The experiments run on a local
+  Anvil chain only (chain id 31337) and an offline Kubo node. They do not use
+  a public network or real funds. The MedMNIST+ v3.0 images are not redistributed;
+  they are available from Zenodo (10.5281/zenodo.10519652, CC BY 4.0).
+preferred-citation:
+  type: article
+  title: "Constant on-chain commitment for federated learning rounds via hierarchical content identifiers"
+  authors:
+    - family-names: Prayitno
+      orcid: "https://orcid.org/0000-0002-4794-2957"
+    - given-names: Karisma Trinanda
+      family-names: Putra
+      orcid: "https://orcid.org/0000-0003-2887-3527"
+    - given-names: Cahya
+      family-names: Damarjati
+      orcid: "https://orcid.org/0000-0003-4389-6321"
+    - family-names: Sunardi
+      orcid: "https://orcid.org/0000-0001-8661-3745"
+    - family-names: Wiktasari
+      orcid: "https://orcid.org/0009-0000-2837-8468"
+    - given-names: Suko Tyas
+      family-names: Pernanda
+      orcid: "https://orcid.org/0009-0004-2988-090X"
+    - given-names: Liliek
+      family-names: Triyono
+      orcid: "https://orcid.org/0000-0002-9566-4824"
+  journal: "ICT Express"
+  year: 2026
+  notes: "Manuscript draft; no DOI has been assigned."

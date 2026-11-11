@@ -1,0 +1,127 @@
+src,k,label,variant,gas_total
+grid,10,S1a,event,241796.0
+grid,10,S1a,storage,446326.0
+grid,10,S1b,event,34980.0
+grid,10,S1b,storage,250743.0
+grid,10,S2,event,46108.0
+grid,10,S2,storage,66787.0
+grid,10,S3 b=16,event,46108.0
+grid,10,S3 b=16,storage,66809.0
+grid,10,S3 b=4,event,46108.0
+grid,10,S3 b=4,storage,66809.0
+grid,10,S3 b=flat,event,46108.0
+grid,10,S3 b=flat,storage,66809.0
+grid,50,S1a,event,1209004.0
+grid,50,S1a,storage,2231654.0
+grid,50,S1b,event,86000.0
+grid,50,S1b,storage,1165471.0
+grid,50,S2,event,46108.0
+grid,50,S2,storage,66787.0
+grid,50,S3 b=16,event,46108.0
+grid,50,S3 b=16,storage,66809.0
+grid,50,S3 b=4,event,46108.0
+grid,50,S3 b=4,storage,66809.0
+grid,50,S3 b=flat,event,46108.0
+grid,50,S3 b=flat,storage,66809.0
+grid,100,S1a,event,2418020.0
+grid,100,S1a,storage,4463320.0
+grid,100,S1b,event,149790.0
+grid,100,S1b,storage,2308887.0
+grid,100,S2,event,46108.0
+grid,100,S2,storage,66787.0
+grid,100,S3 b=16,event,46108.0
+grid,100,S3 b=16,storage,66809.0
+grid,100,S3 b=4,event,46108.0
+grid,100,S3 b=4,storage,66809.0
+grid,100,S3 b=flat,event,46108.0
+grid,100,S3 b=flat,storage,66809.0
+synthetic,10,S1a,event,241796.0
+synthetic,10,S1a,storage,446326.0
+synthetic,10,S1b,event,34980.0
+synthetic,10,S1b,storage,250743.0
+synthetic,10,S2,event,46108.0
+synthetic,10,S2,storage,66787.0
+synthetic,10,S3 b=16,event,46108.0
+synthetic,10,S3 b=16,storage,66809.0
+synthetic,10,S3 b=2,event,46108.0
+synthetic,10,S3 b=2,storage,66809.0
+synthetic,10,S3 b=32,event,46096.0
+synthetic,10,S3 b=32,storage,66797.0
+synthetic,10,S3 b=4,event,46108.0
+synthetic,10,S3 b=4,storage,66809.0
+synthetic,10,S3 b=8,event,46108.0
+synthetic,10,S3 b=8,storage,66809.0
+synthetic,10,S3 b=flat,event,46108.0
+synthetic,10,S3 b=flat,storage,66809.0
+synthetic,50,S1a,event,1208932.0
+synthetic,50,S1a,storage,2231582.0
+synthetic,50,S1b,event,85820.0
+synthetic,50,S1b,storage,1165399.0
+synthetic,50,S2,event,46108.0
+synthetic,50,S2,storage,66787.0
+synthetic,50,S3 b=16,event,46108.0
+synthetic,50,S3 b=16,storage,66809.0
+synthetic,50,S3 b=2,event,46108.0
+synthetic,50,S3 b=2,storage,66809.0
+synthetic,50,S3 b=32,event,46108.0
+synthetic,50,S3 b=32,storage,66809.0
+synthetic,50,S3 b=4,event,46096.0
+synthetic,50,S3 b=4,storage,66797.0
+synthetic,50,S3 b=8,event,46108.0
+synthetic,50,S3 b=8,storage,66809.0
+synthetic,50,S3 b=flat,event,46108.0
+synthetic,50,S3 b=flat,storage,66809.0
+synthetic,100,S1a,event,2418104.0
+synthetic,100,S1a,storage,4463404.0
+synthetic,100,S1b,event,150000.0
+synthetic,100,S1b,storage,2308971.0
+synthetic,100,S2,event,46108.0
+synthetic,100,S2,storage,66787.0
+synthetic,100,S3 b=16,event,46084.0
+synthetic,100,S3 b=16,storage,66785.0
+synthetic,100,S3 b=2,event,46108.0
+synthetic,100,S3 b=2,storage,66809.0
+synthetic,100,S3 b=32,event,46108.0
+synthetic,100,S3 b=32,storage,66809.0
+synthetic,100,S3 b=4,event,46108.0
+synthetic,100,S3 b=4,storage,66809.0
+synthetic,100,S3 b=8,event,46108.0
+synthetic,100,S3 b=8,storage,66809.0
+synthetic,100,S3 b=flat,event,46108.0
+synthetic,100,S3 b=flat,storage,66809.0
+synthetic,500,S1a,event,12093064.0
+synthetic,500,S1a,storage,22319564.0
+synthetic,500,S1b,event,660140.0
+synthetic,500,S1b,storage,11456227.0
+synthetic,500,S2,event,46108.0
+synthetic,500,S2,storage,66787.0
+synthetic,500,S3 b=16,event,46108.0
+synthetic,500,S3 b=16,storage,66809.0
+synthetic,500,S3 b=2,event,46108.0
+synthetic,500,S3 b=2,storage,66809.0
+synthetic,500,S3 b=32,event,46108.0
+synthetic,500,S3 b=32,storage,66809.0
+synthetic,500,S3 b=4,event,46108.0
+synthetic,500,S3 b=4,storage,66809.0
+synthetic,500,S3 b=8,event,46108.0
+synthetic,500,S3 b=8,storage,66809.0
+synthetic,500,S3 b=flat,event,46108.0
+synthetic,500,S3 b=flat,storage,66809.0
+synthetic,1000,S1a,event,24189476.0
+synthetic,1000,S1a,storage,44642476.0
+synthetic,1000,S1b,event,1298730.0
+synthetic,1000,S1b,storage,22890663.0
+synthetic,1000,S2,event,46108.0
+synthetic,1000,S2,storage,66787.0
+synthetic,1000,S3 b=16,event,46108.0
+synthetic,1000,S3 b=16,storage,66809.0
+synthetic,1000,S3 b=2,event,46108.0
+synthetic,1000,S3 b=2,storage,66809.0
+synthetic,1000,S3 b=32,event,46108.0
+synthetic,1000,S3 b=32,storage,66809.0
+synthetic,1000,S3 b=4,event,46108.0
+synthetic,1000,S3 b=4,storage,66809.0
+synthetic,1000,S3 b=8,event,46108.0
+synthetic,1000,S3 b=8,storage,66809.0
+synthetic,1000,S3 b=flat,event,46108.0
+synthetic,1000,S3 b=flat,storage,66809.0

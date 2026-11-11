@@ -1,0 +1,71 @@
+src,k,scheme,variant,label,gas_median,gas_min,gas_max,onchain_B,n
+timing_clean_v3,10,S1a,event,S1a,241796.0,241772,241808,2280.0,9
+timing_clean_v3,10,S1a,storage,S1a,446326.0,446302,446338,1320.0,9
+timing_clean_v3,10,S1b,event,S1b,34980.0,34920,35010,868.0,9
+timing_clean_v3,10,S1b,storage,S1b,250743.0,250719,250755,740.0,9
+timing_clean_v3,10,S2,event,S2,29008.0,28984,29008,164.0,9
+timing_clean_v3,10,S2,storage,S2,49687.0,49663,49687,100.0,9
+timing_clean_v3,10,S2sig,event,S2sig,29008.0,29008,29008,164.0,9
+timing_clean_v3,10,S2sig,storage,S2sig,49687.0,49687,49687,100.0,9
+timing_clean_v3,10,S3,event,S3 b=16,29008.0,29008,29008,164.0,9
+timing_clean_v3,10,S3,event,S3 b=4,29008.0,28984,29008,164.0,9
+timing_clean_v3,10,S3,event,S3 b=flat,29008.0,29008,29008,164.0,9
+timing_clean_v3,10,S3,storage,S3 b=16,49709.0,49709,49709,100.0,9
+timing_clean_v3,10,S3,storage,S3 b=4,49709.0,49685,49709,100.0,9
+timing_clean_v3,10,S3,storage,S3 b=flat,49709.0,49709,49709,100.0,9
+timing_clean_v3,50,S1a,event,S1a,1209004.0,1208956,1209028,11400.0,9
+timing_clean_v3,50,S1a,storage,S1a,2231654.0,2231606,2231678,6600.0,9
+timing_clean_v3,50,S1b,event,S1b,86000.0,85880,86060,3428.0,9
+timing_clean_v3,50,S1b,storage,S1b,1165471.0,1165423,1165495,3300.0,9
+timing_clean_v3,50,S2,event,S2,29008.0,28996,29008,164.0,9
+timing_clean_v3,50,S2,storage,S2,49687.0,49675,49687,100.0,9
+timing_clean_v3,50,S2sig,event,S2sig,29008.0,28996,29008,164.0,9
+timing_clean_v3,50,S2sig,storage,S2sig,49687.0,49675,49687,100.0,9
+timing_clean_v3,50,S3,event,S3 b=16,29008.0,29008,29008,164.0,9
+timing_clean_v3,50,S3,event,S3 b=4,29008.0,28996,29008,164.0,9
+timing_clean_v3,50,S3,event,S3 b=flat,29008.0,28996,29008,164.0,9
+timing_clean_v3,50,S3,storage,S3 b=16,49709.0,49709,49709,100.0,9
+timing_clean_v3,50,S3,storage,S3 b=4,49709.0,49697,49709,100.0,9
+timing_clean_v3,50,S3,storage,S3 b=flat,49709.0,49697,49709,100.0,9
+timing_clean_v3,100,S1a,event,S1a,2418032.0,2418008,2418092,22800.0,9
+timing_clean_v3,100,S1a,storage,S1a,4463332.0,4463308,4463392,13200.0,9
+timing_clean_v3,100,S1b,event,S1b,149820.0,149760,149970,6628.0,9
+timing_clean_v3,100,S1b,storage,S1b,2308899.0,2308875,2308959,6500.0,9
+timing_clean_v3,100,S2,event,S2,29008.0,28996,29008,164.0,9
+timing_clean_v3,100,S2,storage,S2,49687.0,49675,49687,100.0,9
+timing_clean_v3,100,S2sig,event,S2sig,29008.0,28996,29008,164.0,9
+timing_clean_v3,100,S2sig,storage,S2sig,49687.0,49675,49687,100.0,9
+timing_clean_v3,100,S3,event,S3 b=16,29008.0,28996,29008,164.0,9
+timing_clean_v3,100,S3,event,S3 b=4,29008.0,29008,29008,164.0,9
+timing_clean_v3,100,S3,event,S3 b=flat,29008.0,28996,29008,164.0,9
+timing_clean_v3,100,S3,storage,S3 b=16,49709.0,49697,49709,100.0,9
+timing_clean_v3,100,S3,storage,S3 b=4,49709.0,49709,49709,100.0,9
+timing_clean_v3,100,S3,storage,S3 b=flat,49709.0,49697,49709,100.0,9
+timing_clean_v3,500,S1a,event,S1a,12093196.0,12093100,12093268,114000.0,9
+timing_clean_v3,500,S1a,storage,S1a,22319696.0,22319600,22319768,66000.0,9
+timing_clean_v3,500,S1b,event,S1b,660470.0,660230,660650,32228.0,9
+timing_clean_v3,500,S1b,storage,S1b,11456359.0,11456263,11456431,32100.0,9
+timing_clean_v3,500,S2,event,S2,29008.0,28996,29008,164.0,9
+timing_clean_v3,500,S2,storage,S2,49687.0,49675,49687,100.0,9
+timing_clean_v3,500,S2sig,event,S2sig,29008.0,28996,29008,164.0,9
+timing_clean_v3,500,S2sig,storage,S2sig,49687.0,49675,49687,100.0,9
+timing_clean_v3,500,S3,event,S3 b=16,29008.0,29008,29008,164.0,9
+timing_clean_v3,500,S3,event,S3 b=4,29008.0,28996,29008,164.0,9
+timing_clean_v3,500,S3,event,S3 b=flat,29008.0,28996,29008,164.0,9
+timing_clean_v3,500,S3,storage,S3 b=16,49709.0,49709,49709,100.0,9
+timing_clean_v3,500,S3,storage,S3 b=4,49709.0,49697,49709,100.0,9
+timing_clean_v3,500,S3,storage,S3 b=flat,49709.0,49697,49709,100.0,9
+timing_clean_v3,1000,S1a,event,S1a,24189416.0,24189164,24189560,228000.0,9
+timing_clean_v3,1000,S1a,storage,S1a,44642416.0,44642164,44642560,132000.0,9
+timing_clean_v3,1000,S1b,event,S1b,1298580.0,1297950,1298940,64228.0,9
+timing_clean_v3,1000,S1b,storage,S1b,22890603.0,22890351,22890747,64100.0,9
+timing_clean_v3,1000,S2,event,S2,29008.0,28996,29008,164.0,9
+timing_clean_v3,1000,S2,storage,S2,49687.0,49675,49687,100.0,9
+timing_clean_v3,1000,S2sig,event,S2sig,29008.0,28996,29008,164.0,9
+timing_clean_v3,1000,S2sig,storage,S2sig,49687.0,49675,49687,100.0,9
+timing_clean_v3,1000,S3,event,S3 b=16,29008.0,28996,29008,164.0,9
+timing_clean_v3,1000,S3,event,S3 b=4,29008.0,28996,29008,164.0,9
+timing_clean_v3,1000,S3,event,S3 b=flat,29008.0,28984,29008,164.0,9
+timing_clean_v3,1000,S3,storage,S3 b=16,49709.0,49697,49709,100.0,9
+timing_clean_v3,1000,S3,storage,S3 b=4,49709.0,49697,49709,100.0,9
+timing_clean_v3,1000,S3,storage,S3 b=flat,49709.0,49685,49709,100.0,9

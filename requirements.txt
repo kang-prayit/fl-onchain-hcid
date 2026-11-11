@@ -1,0 +1,10 @@
+# Python deps (torch/numpy/pandas come from Colab or the base image)
+flwr[simulation]==1.43.0
+dag-cbor==0.3.3
+multiformats==0.3.1.post4
+web3==8.0.0
+eth-account==0.14.0
+requests>=2.31
+pytest>=8
+tabulate>=0.9
+# External binaries (pinned in the notebook): Foundry v1.9.0 (forge/anvil), Kubo v0.43.1 (ipfs)
